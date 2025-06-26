@@ -1,5 +1,9 @@
 <template>
   <div>
-    <div class="badge badge-primary">Heyyy</div>
+    <NavBar/>
+    <main>
+      <Hero/>
+    </main>
   </div>
 </template>
+

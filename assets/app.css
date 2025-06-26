@@ -1,2 +1,7 @@
 @import "tailwindcss";
 @plugin "daisyui";
+
+@theme {
+  --color-vue: #00c16a;
+  --color-ts: #3178c6;
+}
