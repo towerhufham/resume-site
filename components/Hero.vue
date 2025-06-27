@@ -26,7 +26,7 @@
             color="text-black" 
             title="Coding Instructor Reviews" 
             stat="4.86/5" 
-            desc="Over 68 students"
+            desc="Averaged across 68 students"
             />
         </div>
       </div>
