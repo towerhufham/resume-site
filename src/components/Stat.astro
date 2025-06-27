@@ -1,0 +1,17 @@
+---
+const { iconName, title, stat, desc, color} = Astro.props
+---
+<article class="stat">
+  <div class:list={["stat-figure", color]}>
+    <!-- <Icon name={iconName} size="4em"/> -->
+  </div>
+  <div class="stat-title">
+    { title }
+  </div>
+  <div class:list={["stat-value", color]}>
+    { stat }
+  </div>
+  <div class="stat-desc">
+    { desc }
+  </div>
+</article>
