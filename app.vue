@@ -3,7 +3,7 @@
     <NavBar/>
     <main>
       <Hero/>
-      <section class="bg-vue text-center py-6">
+      <section class="bg-linear-to-br from-vue to-green-600 text-center py-6">
         <h2 class="font-bold text-white text-5xl py-6">
           Experience
         </h2>

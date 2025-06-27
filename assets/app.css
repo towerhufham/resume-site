@@ -5,3 +5,11 @@
   --color-vue: #00c16a;
   --color-ts: #3178c6;
 }
+
+.grid-bg {
+  --grid-color: rgba(0,0,0,0.15);
+  background-size: 40px 40px;
+  background-image:
+    linear-gradient(to right, var(--grid-color) 1px, transparent 1px),
+    linear-gradient(to bottom, var(--grid-color) 1px, transparent 1px);
+}
