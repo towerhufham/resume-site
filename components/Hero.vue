@@ -1,8 +1,8 @@
 <template>
   <section class="bg-linear-to-br from-teal-100 to-green-200">
     <div class="md:hero md:min-h-screen grid-bg">
-      <div class="hero-content text-center bg-green-100 border border-solid border-slate-300 rounded-lg shadow-lg">
-        <div class="py-6">
+      <div class="hero-content text-center bg-green-50 border border-solid border-slate-300 rounded-lg shadow-lg">
+        <div class="p-6">
           <h1 class="text-4xl md:text-5xl font-bold text-shadow-sm">
             Need some <span class="text-vue">Vue?</span>
           </h1>
