@@ -1,9 +1,7 @@
 <template>
-  <div class="bg-linear-to-br from-teal-200 to-green-300">
+  <div class="bg-linear-to-br from-green-300 to-teal-300">
     <!-- <NavBar/> -->
-    <main class="grid-bg min-h-screen flex flex-col justify-center items-center">
-
-      
+    <main class="grid-bg min-h-screen flex flex-col justify-center items-center gap-35 py-35">
       <ContentBubble>
         <h1 class="text-4xl md:text-5xl font-bold text-shadow-sm">
           Need some <span class="text-vue">Vue?</span>
@@ -37,10 +35,8 @@
           </div>
         </InnerBubble>
       </ContentBubble>
-      
-      
-      <!-- <section class="bg-linear-to-br from-vue to-green-600 text-center py-6">
-        <h2 class="font-bold text-white text-5xl py-6">
+      <ContentBubble>
+        <h2 class="font-bold text-5xl">
           Experience
         </h2>
         <div class="flex justify-center gap-6 py-6 max-md:flex-col">
@@ -54,7 +50,7 @@
             <p>Lorem iupsum!!!!</p>
           </Card>
         </div>
-      </section> -->
+      </ContentBubble>
     </main>
   </div>
 </template>
