@@ -36,7 +36,7 @@
         </InnerBubble>
       </ContentBubble>
       <ContentBubble>
-        <h2 class="font-bold text-5xl">
+        <h2 class="font-bold text-5xl text-shadow-sm">
           Experience
         </h2>
         <div class="flex justify-center gap-6 py-6 max-md:flex-col">
@@ -50,6 +50,16 @@
             <p>Lorem iupsum!!!!</p>
           </Card>
         </div>
+      </ContentBubble>
+      <ContentBubble>
+        <h2 class="font-bold text-5xl text-shadow-sm">
+          Active Projects
+        </h2>
+      </ContentBubble>
+      <ContentBubble>
+        <h2 class="font-bold text-5xl text-shadow-sm">
+          Education
+        </h2>
       </ContentBubble>
     </main>
   </div>
