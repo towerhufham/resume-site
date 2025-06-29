@@ -1,9 +1,45 @@
 <template>
-  <div>
-    <NavBar/>
-    <main>
-      <Hero/>
-      <section class="bg-linear-to-br from-vue to-green-600 text-center py-6">
+  <div class="bg-linear-to-br from-teal-200 to-green-300">
+    <!-- <NavBar/> -->
+    <main class="grid-bg min-h-screen flex flex-col justify-center items-center">
+
+      
+      <ContentBubble>
+        <h1 class="text-4xl md:text-5xl font-bold text-shadow-sm">
+          Need some <span class="text-vue">Vue?</span>
+        </h1>
+        <p class="py-6 text-3xl text-shadow-sm">
+          I got you.
+        </p>
+        <InnerBubble>
+          <div class="stats text-center max-md:stats-vertical">
+            <Stat 
+              iconName="flowbite:vue-solid" 
+              color="text-vue" 
+              title="Years of Vue Experience" 
+              stat="4" 
+              desc="Mentored by coworkers on live projects"
+              />
+            <Stat 
+              iconName="akar-icons:typescript-fill" 
+              color="text-ts" 
+              title="Years of TS Experience" 
+              stat="3" 
+              desc="Union types are my favorite"
+              />
+            <Stat 
+              iconName="ph:student-fill" 
+              color="text-black" 
+              title="Coding Instructor Reviews" 
+              stat="4.86/5" 
+              desc="Averaged across 68 students"
+              />
+          </div>
+        </InnerBubble>
+      </ContentBubble>
+      
+      
+      <!-- <section class="bg-linear-to-br from-vue to-green-600 text-center py-6">
         <h2 class="font-bold text-white text-5xl py-6">
           Experience
         </h2>
@@ -18,7 +54,7 @@
             <p>Lorem iupsum!!!!</p>
           </Card>
         </div>
-      </section>
+      </section> -->
     </main>
   </div>
 </template>
