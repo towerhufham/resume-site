@@ -14,15 +14,15 @@
             <Stat 
               iconName="flowbite:vue-solid" 
               color="text-vue" 
-              title="Years of Vue Experience" 
-              stat="4" 
+              title="Years of Production Vue Experience" 
+              stat="4+" 
               desc="Mentored by coworkers on live projects"
               />
             <Stat 
               iconName="akar-icons:typescript-fill" 
               color="text-ts" 
               title="Years of TS Experience" 
-              stat="3" 
+              stat="3+" 
               desc="Union types are my favorite"
               />
             <Stat 
@@ -34,35 +34,6 @@
               />
           </div>
         </InnerBubble>
-      </ContentBubble>
-      <ContentBubble>
-        <h2 class="font-bold text-5xl text-shadow-sm">
-          Professional Experience
-        </h2>
-        <div class="flex justify-center gap-6 py-6 max-md:flex-col">
-          <Card title="Corning (2019-2020 Internship)" imgSrc="/img/corning-logo.jpg">
-            <p>Lorem iupsum!!!!</p>
-          </Card>
-          <Card title="Nucamp (Instructor)" imgSrc="/img/nucamp-logo.jpg">
-            <p>Lorem iupsum!!!!</p>
-          </Card>
-          <Card title="BlueTone Media (2022-2025)" imgSrc="/img/btm-logo.png">
-            <p>
-              Worked with team members & clients to bring local businesses' visions to life. I contributed to over a hundred websites, many that fellow North & South Carolinians may recognize:
-            </p>
-            <LinkList :links="[
-              ['Home Telecom', 'https://www.homesc.com/'],
-              ['Truvista Fiber', 'https://www.truvista.net/'],
-              ['Focus Broadband', 'https://www.focusbroadband.com/'],
-              ['Port City Java', 'https://www.portcityjava.com/'],
-              ['Odyssey Mechanical', 'https://odysseymechanical.com/'],
-              ['Local Catch', 'https://www.localcatch.app/'],
-              ['ProTag', 'https://www.protag.com/'],
-              ['Bald Head Island Association', 'https://www.baldheadassociation.com/']
-            ]">
-            </LinkList>
-          </Card>
-        </div>
       </ContentBubble>
       <ContentBubble>
         <h2 class="font-bold text-5xl text-shadow-sm">
@@ -90,6 +61,44 @@
                 <button class="btn bg-vue text-white">View on Github</button>
               </a>
             </div>
+          </Card>
+        </div>
+      </ContentBubble>
+      <ContentBubble>
+        <h2 class="font-bold text-5xl text-shadow-sm">
+          Professional Experience
+        </h2>
+        <div class="flex justify-center gap-6 py-6 max-md:flex-col">
+          <Card title="Corning (2019-2020 Internship)" imgSrc="/img/corning-logo.jpg">
+            <p>
+              From 2019-2020, I was an intern at Corning's Wilmington fiber optic plant. There, I worked directly with factory personel to address pain points in their workflows, and built digital solutions for problems such as inventory management and troubleshooting. I also occasionally worked on the factory floor, working hands-on with the spools of cable.
+            </p>
+          </Card>
+          <Card title="Nucamp (Instructor)" imgSrc="/img/nucamp-logo.jpg">
+            <div>
+              <p>
+                Hosted two bootcamps teaching non-tech professionals the ropes of HTML, CSS, JavaScript, and Bootstrap.
+              </p>
+              <p>
+                Over a total of 68 students, I achieved an average review rating of 4.86 out of 5.
+              </p>
+            </div>
+          </Card>
+          <Card title="BlueTone Media (2022-2025)" imgSrc="/img/btm-logo.png">
+            <p>
+              Worked with team members & clients to bring local businesses' visions to life. I contributed to over a hundred websites, many that fellow North & South Carolinians may recognize:
+            </p>
+            <LinkList :links="[
+              ['Home Telecom', 'https://www.homesc.com/'],
+              ['Truvista Fiber', 'https://www.truvista.net/'],
+              ['Focus Broadband', 'https://www.focusbroadband.com/'],
+              ['Port City Java', 'https://www.portcityjava.com/'],
+              ['Odyssey Mechanical', 'https://odysseymechanical.com/'],
+              ['Local Catch', 'https://www.localcatch.app/'],
+              ['ProTag', 'https://www.protag.com/'],
+              ['Bald Head Island Association', 'https://www.baldheadassociation.com/']
+            ]">
+            </LinkList>
           </Card>
         </div>
       </ContentBubble>
