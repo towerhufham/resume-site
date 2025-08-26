@@ -40,7 +40,7 @@
           Active Projects
         </h2>
         <div class="flex justify-center gap-6 py-6 max-md:flex-col">
-          <Card title="Roseburg" imgSrc="https://placehold.co/459x250">
+          <Card title="Roseburg" imgSrc="/img/roseburg.png">
             <p>A Nuxt/TypeScript game inspired by the board games of Uwe Rosenberg. Uses Pinia for state management, and TypeScript to manage game logic.</p>
             <div class="flex gap-2">
               <a href="https://roseburg.app/" target="_blank">
@@ -51,7 +51,7 @@
               </a>
             </div>
           </Card>
-          <Card title="Bunny Engine (WIP)" imgSrc="https://placehold.co/459x250">
+          <!-- <Card title="Bunny Engine (WIP)" imgSrc="https://placehold.co/459x250">
             <p>An experimental Content Management System (CMS) based on data-driven programming principals that allows for arbitrary chains of querying, logic, and non-destructive transformation to be done directly through URL manipulation. </p>
             <div class="flex gap-2">
               <a href="https://roseburg.app/" target="_blank">
@@ -59,6 +59,14 @@
               </a>
               <a href="https://github.com/towerhufham/roseberg" target="_blank">
                 <button class="btn bg-vue text-white">View on Github</button>
+              </a>
+            </div>
+          </Card> -->
+          <Card title="Heaven Topology" imgSrc="/img/heaven-topology.png">
+            <p>Heaven Topology is the name I publish my various creative projects under; including music, games, and stories.</p>
+            <div class="flex gap-2">
+              <a href="https://heaventopology.net/" target="_blank">
+                <button class="btn bg-vue text-white">Visit</button>
               </a>
             </div>
           </Card>
@@ -89,10 +97,10 @@
               Worked with team members & clients to bring local businesses' visions to life. I contributed to over a hundred websites, many that fellow North & South Carolinians may recognize:
             </p>
             <LinkList :links="[
+              ['Port City Java', 'https://www.portcityjava.com/'],
               ['Home Telecom', 'https://www.homesc.com/'],
               ['Truvista Fiber', 'https://www.truvista.net/'],
               ['Focus Broadband', 'https://www.focusbroadband.com/'],
-              ['Port City Java', 'https://www.portcityjava.com/'],
               ['Odyssey Mechanical', 'https://odysseymechanical.com/'],
               ['Local Catch', 'https://www.localcatch.app/'],
               ['ProTag', 'https://www.protag.com/'],
@@ -107,12 +115,12 @@
           Education
         </h2>
         <div class="flex justify-center gap-6 py-6 max-md:flex-col">
-          <Card title="UNCW (Class of 2020)" imgSrc="https://placehold.co/459x250">
+          <Card title="UNCW (Class of 2020)" imgSrc="/img/uncw.png">
             <p>
               Graduated Cum Laude with a bachelor's in Computer Science and a focus in Digital Arts
             </p>
           </Card>
-          <Card title="Vue Certification" imgSrc="https://placehold.co/459x250">
+          <Card title="Vue Certification" imgSrc="/img/vue.png">
             <p>
               Achieved a mid-level certificate for competency with the Vue library and ecosystem
             </p>
