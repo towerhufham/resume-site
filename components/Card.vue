@@ -1,7 +1,7 @@
 <template>
   <div class="card bg-base-100 w-96 shadow-sm">
     <figure>
-      <NuxtPicture :src="imgSrc" :alt="title"/>
+      <NuxtPicture preload :src="imgSrc" :alt="title"/>
     </figure>
     <div class="card-body">
       <h2 class="card-title">{{ title }}</h2>
