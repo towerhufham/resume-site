@@ -8,5 +8,19 @@ export default defineNuxtConfig({
   vite: {
     plugins: [tailwindcss()]
   },
-  css: ["~/assets/app.css"]
+  css: ["~/assets/app.css"],
+  app: {
+    head: {
+      title: "Tower Hufham — Resume Site",
+      meta: [
+        {name: "description", content: "Tower Hufham's resume website."}
+      ],
+      htmlAttrs: {
+        lang: "en"
+      },
+      link: [
+        { rel: "icon", type: "image/svg+xml", href: "/logo.svg"}
+      ]
+    }
+  }
 })
