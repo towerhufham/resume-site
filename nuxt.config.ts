@@ -22,5 +22,8 @@ export default defineNuxtConfig({
         { rel: "icon", type: "image/svg+xml", href: "/logo.svg"}
       ]
     }
+  },
+  image: {
+    format: ["webp"]
   }
 })
