@@ -36,7 +36,7 @@
         </InnerBubble>
       </ContentBubble>
       <ContentBubble>
-        <h2 class="font-bold text-5xl text-shadow-sm">
+        <h2 class="font-bold text-5xl text-center text-shadow-sm">
           Active Projects
         </h2>
         <div class="flex justify-center gap-6 py-6 max-md:flex-col">
@@ -73,7 +73,7 @@
         </div>
       </ContentBubble>
       <ContentBubble>
-        <h2 class="font-bold text-5xl text-shadow-sm">
+        <h2 class="font-bold text-5xl text-center text-shadow-sm">
           Professional Experience
         </h2>
         <div class="flex justify-center gap-6 py-6 max-md:flex-col">
@@ -111,7 +111,7 @@
         </div>
       </ContentBubble>
       <ContentBubble>
-        <h2 class="font-bold text-5xl text-shadow-sm">
+        <h2 class="font-bold text-5xl text-center text-shadow-sm">
           Education
         </h2>
         <div class="flex justify-center gap-6 py-6 max-md:flex-col">
@@ -122,7 +122,7 @@
           </Card>
           <Card title="Vue Certification" imgSrc="/img/vue.png">
             <p>
-              Achieved a mid-level certificate for competency with the Vue library and ecosystem
+              Achieved a certificate for competency with the Vue library and ecosystem
             </p>
             <a href="https://certificates.dev/.netlify/images?url=https:%2F%2Fapi.certificates.dev%2Fcertificates%2Fthumbnail%2F9f32411a-9615-4183-8bb4-154fec395049.jpg" target="_blank">
               <button class="btn bg-vue text-white">View Certificate</button>

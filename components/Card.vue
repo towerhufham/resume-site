@@ -1,5 +1,5 @@
 <template>
-  <div class="card bg-base-100 w-96 shadow-sm">
+  <div class="card bg-base-100 w-96 max-w-screen shadow-sm">
     <figure>
       <NuxtPicture preload :src="imgSrc" :alt="title"/>
     </figure>
