@@ -11,9 +11,9 @@ export default defineNuxtConfig({
   css: ["~/assets/app.css"],
   app: {
     head: {
-      title: "Tower Hufham — Resume Site",
+      title: "Tower Hufham — Portfolio Site",
       meta: [
-        {name: "description", content: "Tower Hufham's resume website."}
+        {name: "description", content: "Tower Hufham's portfolio website."}
       ],
       htmlAttrs: {
         lang: "en"

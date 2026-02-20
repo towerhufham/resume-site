@@ -1,10 +1,10 @@
 <template>
-  <div class="card bg-base-100 w-96 max-w-screen shadow-sm">
+  <div class="card bg-white w-96 max-w-screen shadow-sm">
     <figure>
       <NuxtPicture preload :src="imgSrc" :alt="title"/>
     </figure>
     <div class="card-body">
-      <h2 class="card-title">{{ title }}</h2>
+      <h2 class="card-title text-black">{{ title }}</h2>
       <slot></slot>
       <!-- <div class="card-actions justify-end">
         <button class="btn btn-primary">button</button>

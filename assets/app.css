@@ -1,10 +1,19 @@
 @import "tailwindcss";
 @plugin "daisyui";
+@custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
+
+@plugin "daisyui" {
+  themes: light --default;
+}
 
 @theme {
   --color-vue: #00c16a;
   --color-dark-vue: #006635;
   --color-ts: #3178c6;
+}
+
+@utility btn {
+  @apply ring-gray-500;
 }
 
 .grid-bg {

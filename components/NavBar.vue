@@ -5,7 +5,7 @@
     </div>
     <div class="flex-none">
       <a href="https://www.linkedin.com/in/tower-hufham/" target="_blank">
-        <button class="btn bg-green-50">Hire Me!</button>
+        <button class="btn bg-green-50 text-black">Hire Me!</button>
       </a>
     </div>
   </header>

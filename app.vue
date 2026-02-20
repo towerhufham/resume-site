@@ -3,10 +3,10 @@
     <NavBar/>
     <main class="grid-bg min-h-screen flex flex-col justify-center items-center gap-35 py-35">
       <ContentBubble>
-        <h1 class="text-4xl md:text-5xl font-bold text-shadow-sm">
+        <h1 class="text-4xl md:text-5xl text-black font-bold text-shadow-sm">
           Need some <span class="text-vue">Vue?</span>
         </h1>
-        <p class="py-6 text-3xl text-shadow-sm">
+        <p class="py-6 text-3xl text-shadow-sm text-black">
           I got you.
         </p>
         <InnerBubble>
@@ -36,10 +36,10 @@
         </InnerBubble>
       </ContentBubble>
       <ContentBubble>
-        <h2 class="font-bold text-5xl text-center text-shadow-sm">
+        <h2 class="font-bold text-5xl text-center text-shadow-sm text-black">
           Active Projects
         </h2>
-        <div class="flex justify-center gap-6 py-6 max-md:flex-col">
+        <div class="flex justify-center gap-6 py-6 text-black max-md:flex-col">
           <Card title="Roseburg" imgSrc="/img/roseburg.png">
             <p>A Nuxt/TypeScript game inspired by the board games of Uwe Rosenberg. Uses Pinia for state management, and TypeScript to manage game logic.</p>
             <div class="flex gap-2">
@@ -73,27 +73,27 @@
         </div>
       </ContentBubble>
       <ContentBubble>
-        <h2 class="font-bold text-5xl text-center text-shadow-sm">
+        <h2 class="font-bold text-5xl text-center text-shadow-sm text-black">
           Professional Experience
         </h2>
         <div class="flex justify-center gap-6 py-6 max-md:flex-col">
           <Card title="Corning (2019-2020 Internship)" imgSrc="/img/corning-logo.jpg">
-            <p>
+            <p class="text-black">
               From 2019-2020, I was an intern at Corning's Wilmington fiber optic plant. There, I worked directly with factory personel to address pain points in their workflows, and built digital solutions for problems such as inventory management and troubleshooting. I also occasionally worked on the factory floor, working hands-on with the spools of cable.
             </p>
           </Card>
           <Card title="Nucamp (Instructor)" imgSrc="/img/nucamp-logo.jpg">
             <div>
-              <p>
+              <p class="text-black">
                 Hosted two bootcamps teaching non-tech professionals the ropes of HTML, CSS, JavaScript, and Bootstrap.
               </p>
-              <p>
+              <p class="text-black">
                 Over a total of 68 students, I achieved an average review rating of 4.86 out of 5.
               </p>
             </div>
           </Card>
           <Card title="BlueTone Media (2022-2025)" imgSrc="/img/btm-logo.png">
-            <p>
+            <p class="text-black">
               Worked with team members & clients to bring local businesses' visions to life. I contributed to over a hundred websites, many that fellow North & South Carolinians may recognize:
             </p>
             <LinkList :links="[
@@ -111,17 +111,17 @@
         </div>
       </ContentBubble>
       <ContentBubble>
-        <h2 class="font-bold text-5xl text-center text-shadow-sm">
+        <h2 class="font-bold text-5xl text-center text-shadow-sm text-black">
           Education
         </h2>
-        <div class="flex justify-center gap-6 py-6 max-md:flex-col">
+        <div class="flex justify-center gap-6 py-6 max-md:flex-col text-black">
           <Card title="UNCW (Class of 2020)" imgSrc="/img/uncw.png">
-            <p>
+            <p class="text-black">
               Graduated Cum Laude with a bachelor's in Computer Science and a focus in Digital Arts
             </p>
           </Card>
           <Card title="Vue Certification" imgSrc="/img/vue.png">
-            <p>
+            <p class="text-black">
               Achieved a certificate for competency with the Vue library and ecosystem
             </p>
             <a href="https://certificates.dev/.netlify/images?url=https:%2F%2Fapi.certificates.dev%2Fcertificates%2Fthumbnail%2F9f32411a-9615-4183-8bb4-154fec395049.jpg" target="_blank">
